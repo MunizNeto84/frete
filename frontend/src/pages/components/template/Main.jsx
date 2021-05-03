@@ -1,7 +1,10 @@
-import '../../../styles/Main.module.scss'
+import styles from'../../../styles/Main.module.scss'
 import React from 'react'
 
+// eslint-disable-next-line
 export default props =>
-<main className="content">
-  content 
-</main>
+  <main className={styles.content}>
+    <div>
+      {props.children}
+    </div>
+  </main>

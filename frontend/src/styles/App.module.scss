@@ -10,6 +10,7 @@
   --gren-800: #2CDA9D;
   --red-800: #FF5D47;
 
+  --fire-200: #fCAC7A;
   --fire-300: #F79D65;
   --fire-400: #F4845F;
   --fire-500: #F27059;
@@ -21,6 +22,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 
 body {
   background: var(--white);
@@ -59,11 +62,12 @@ button {
   grid-template-areas:
         "header"
         "nav"
-        "home"
+        "main"
         "footer";
   height: 100vh;
   background-color: var(--white);
 }
+
 
   header.header {
     grid-area: header;
@@ -74,7 +78,7 @@ button {
   }
 
   main.content {
-    grid-area: home;
+    grid-area: main;
   }
 
   footer.footer {

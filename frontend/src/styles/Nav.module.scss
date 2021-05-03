@@ -1,0 +1,22 @@
+.menuContainer {
+  background: var(--fire-200);
+  display: flex;
+  align-items: center;
+  
+  nav {
+    margin: auto;
+    display: flex;
+    
+  a {
+      display:flexbox;
+      text-decoration: none;
+      color: var(--white);
+      padding: 0.9375rem;
+    }
+
+  a:hover {
+      background: linear-gradient(115deg, var(--fire-800) 0%, var(--fire-300) 100%);
+    }
+    
+  }
+}
