@@ -1,0 +1,82 @@
+:root {
+  --white: #eaeaea;
+  
+  --gray-50: #A4ADB6;
+  --gray-100: #8E99A4;
+  --gray-200: #778492;
+  --gray-500: #64707D;
+  --gray-800: #525C66;
+
+  --gren-800: #2CDA9D;
+  --red-800: #FF5D47;
+
+  --fire-300: #F79D65;
+  --fire-400: #F4845F;
+  --fire-500: #F27059;
+  --fire-800: #F25C54;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white);
+}
+
+body, input, textarea, button{
+  font: 500 1rem Roboto, sans-serif;
+  color: var(--ash-gray-800) 
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  color: var(--gray-800);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*Grid*/
+
+.app {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 12;
+  grid-template-rows: 5.5rem 3.5rem 6fr 4.5rem;
+  grid-template-areas:
+        "header"
+        "nav"
+        "home"
+        "footer";
+  height: 100vh;
+  background-color: var(--white);
+}
+
+  header.header {
+    grid-area: header;
+  }
+
+  aside.menu {
+    grid-area: nav;
+  }
+
+  main.content {
+    grid-area: home;
+  }
+
+  footer.footer {
+    grid-area: footer;
+  }
