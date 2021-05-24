@@ -2,6 +2,7 @@ import React from 'react'
 import Main from '../template/Main'
 import LatestSpending from '../latestSpending/LatestSpending'
 import LastFreight from '../lastFreight/LastFreight'
+import LastMonths from '../barChart/LastMonths'
 import Styles from '../../../styles/Home.module.scss'
 
 // eslint-disable-next-line
@@ -23,9 +24,11 @@ export default props =>
      </div>
     </div>
     <div className={Styles.lastMonths}>
-      <p>Últimos meses</p>
-      <div>
+      
         
+        
+      <div>
+        <LastMonths/>
       </div>
     </div>
     <h2>Últimos Fretes</h2>
