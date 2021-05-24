@@ -1,0 +1,25 @@
+.table {
+  display: flex-block;
+  width: 100%;
+
+  th, td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--gray-100);
+    
+  }
+
+  th {
+    color: var(--black00);
+    text-transform: uppercase;
+    font: 400 1rem Roboto, sans-serif;
+    text-align: left;
+  }
+
+  td {
+    font-size: 14px;
+    font: 200 1rem Roboto, sans-serif;
+  }
+  
+  tr:hover {background: var(--fire-200);
+  }   
+}

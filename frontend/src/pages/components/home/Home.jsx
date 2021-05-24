@@ -3,13 +3,13 @@ import Main from '../template/Main'
 import LatestSpending from '../latestSpending/LatestSpending'
 import LastFreight from '../lastFreight/LastFreight'
 import LastMonths from '../barChart/LastMonths'
+import Spending from '../donutChart/Spending'
 import Styles from '../../../styles/Home.module.scss'
 
 // eslint-disable-next-line
 export default props => 
 <React.Fragment>
   <Main >
- 
   <body className={Styles.content}>
     <div className={Styles.latestSpending}>
       <p>Últimos Gastos</p>
@@ -18,15 +18,11 @@ export default props =>
       </div>
     </div>
     <div className={Styles.spending}>
-    <p>Gastos</p>
      <div>
-       
+       <Spending/>
      </div>
     </div>
     <div className={Styles.lastMonths}>
-      
-        
-        
       <div>
         <LastMonths/>
       </div>

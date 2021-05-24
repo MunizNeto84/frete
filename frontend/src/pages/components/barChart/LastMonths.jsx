@@ -25,9 +25,6 @@ const BarChart = () => {
       }
     ]
   }
-  
-    
-  
 
   return(
     <Chart 
@@ -35,7 +32,7 @@ const BarChart = () => {
       series={mockData.series}
       type= "bar"
       height= "200"
-      width= "350"
+      width= "400"
     />
   )
 }

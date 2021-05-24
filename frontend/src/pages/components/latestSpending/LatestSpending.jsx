@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../../../styles/Table.module.scss'
 
 // eslint-disable-next-line
 export default props =>
-<table>
+<table className={styles.table} >
   <thead>
     <tr>
       <th>Categoria</th>

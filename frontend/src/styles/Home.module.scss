@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto 5px;
+  
   .latestSpending {
     display: inline-block;
     overflow-y: scroll;
@@ -13,14 +14,16 @@
   }
         
   .spending {
-   height: 100%; 
-    p {
-     padding-left: 20px;
-    }
-    div {
-     padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+     p {
+      padding-left: 20px;
+      padding-bottom: 20px;
+     }
+     div {
      
-    }        
+     }        
   }
 
   .lastMonths {
@@ -43,12 +46,16 @@
   }
         
   .lastFreight {
+    display: flex;
+    //justify-content: space-between;
     overflow-y: scroll;
-    overflow-x: scroll;
     height: 37vh;
     grid-column: 1 / -1; 
     grid-row: 5;
     background: var(--fire-100);
+    div{
+      margin: auto
+    }
   }
 }
 
