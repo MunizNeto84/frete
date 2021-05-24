@@ -1,7 +1,8 @@
 .menuContainer {
-  background: var(--fire-200);
+  background: linear-gradient(90deg,var(--fire-800) 0.9%, var(--fire-400) 100%);
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--black01);
   
   nav {
     margin: auto;
@@ -15,7 +16,8 @@
     }
 
   a:hover {
-      background: linear-gradient(115deg, var(--fire-800) 0%, var(--fire-300) 100%);
+      background: linear-gradient(90deg, var(--fire-800) 0%, var(--fire-400) 100%);
+      border-bottom: 1px solid var(--black01);
     }
     
   }

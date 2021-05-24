@@ -1,5 +1,7 @@
 :root {
   --white: #eaeaea;
+  --black00: #2C2C2C;
+  --black01: #280200;
   
   --gray-50: #A4ADB6;
   --gray-100: #8E99A4;
@@ -10,6 +12,7 @@
   --gren-800: #2CDA9D;
   --red-800: #FF5D47;
 
+  --fire-100: #FFEDED;
   --fire-200: #fCAC7A;
   --fire-300: #F79D65;
   --fire-400: #F4845F;
@@ -22,8 +25,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 body {
   background: var(--white);
@@ -58,7 +59,7 @@ button {
   margin: 0px;
   display: grid;
   grid-template-columns: 12;
-  grid-template-rows: 5.5rem 3.5rem 6fr 4.5rem;
+  grid-template-rows: 5.5rem 3.0rem 6fr 3.0rem;
   grid-template-areas:
         "header"
         "nav"
@@ -67,7 +68,6 @@ button {
   height: 100vh;
   background-color: var(--white);
 }
-
 
   header.header {
     grid-area: header;

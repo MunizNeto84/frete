@@ -4,7 +4,9 @@ import React from 'react'
 // eslint-disable-next-line
 export default props =>
 <footer className={styles.footer}>
-  <span>
-    Desenvolvido por: <span> <img src="/logo-white-mn.svg" alt="neto"/> </span>
-  </span>
+  
+  <a href='https://github.com/MunizNeto84' >
+    <img src="/logo-white-mn.svg" alt="neto"/>
+  </a>
+
 </footer>
