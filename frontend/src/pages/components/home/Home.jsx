@@ -1,5 +1,7 @@
 import React from 'react'
 import Main from '../template/Main'
+import LatestSpending from '../latestSpending/LatestSpending'
+import LastFreight from '../lastFreight/LastFreight'
 import Styles from '../../../styles/Home.module.scss'
 
 // eslint-disable-next-line
@@ -11,7 +13,7 @@ export default props =>
     <div className={Styles.latestSpending}>
       <p>Últimos Gastos</p>
       <div>
-          
+        <LatestSpending/>
       </div>
     </div>
     <div className={Styles.spending}>
@@ -22,11 +24,14 @@ export default props =>
     </div>
     <div className={Styles.lastMonths}>
       <p>Últimos meses</p>
+      <div>
+        
+      </div>
     </div>
     <h2>Últimos Fretes</h2>
     <div className={Styles.lastFreight}>
       <div>
-
+        <LastFreight/>
       </div>
     </div>
   </body>  
