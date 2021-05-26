@@ -9,7 +9,7 @@ const currentDate = format (new Date(), 'iii, d MMMM', {
   locale: ptBR
 })
 //eslint-disable-next-line
-export default props =>
+export default () =>
 <header className={styles.header}>
         <Link to='/'>
           <img src="/frete-white.svg" alt="frete"/>

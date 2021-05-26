@@ -1,6 +1,8 @@
 .content {
-  margin: 20px;
+  margin: 10px;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto 5px;
   
@@ -8,21 +10,26 @@
     display: inline-block;
     overflow-y: scroll;
     height: 15.625rem;
+    p {
+      padding-left: 10px;
+      padding-bottom: 20px;
+    }
     div{
        background: var(--fire-100);
     }
   }
         
   .spending {
-    height: 100%;
-    display: flex;
-    justify-content: center;
+    splay: flex;
+    justify-content: center;height: 100%;
+    di
      p {
       padding-left: 20px;
       padding-bottom: 20px;
      }
      div {
-     
+      padding: 0;
+      margin: 0;
      }        
   }
 
@@ -35,25 +42,25 @@
       padding-bottom: 20px;
      }
      div {
-     
+      padding: 0;
+      margin: 0;
      }  
   }
 
   h2 {
-    margin-bottom: 5px;
+    margin: 5px 0;
     grid-column: 1 / -1; 
     grid-row: 4;      
   }
         
   .lastFreight {
     display: flex;
-    //justify-content: space-between;
     overflow-y: scroll;
     height: 37vh;
     grid-column: 1 / -1; 
     grid-row: 5;
-    background: var(--fire-100);
     div{
+      background: var(--fire-100);
       margin: auto
     }
   }

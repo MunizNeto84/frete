@@ -8,7 +8,7 @@ import Routes from './Routes'
 import Footer from '../components/template/Footer'
 
 // eslint-disable-next-line
-export default props =>
+export default () =>
 <BrowserRouter>
   <div className={styles.app}>
     <Header/>

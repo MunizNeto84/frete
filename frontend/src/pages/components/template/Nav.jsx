@@ -9,19 +9,19 @@ export default props =>
         <Link to='/'>
           Inicio
         </Link>
-        <Link to='/pedidos'>
+        <Link to='/funcionarios'>
           Funcionários
         </Link>
-        <Link to='/pedidos'>
+        <Link to='/'>
           Clientes
         </Link>
-        <Link to='/pedidos'>
+        <Link to='/'>
           Fretes
         </Link>
-        <Link to='/pedidos'>
+        <Link to='/'>
           Gastos
         </Link>
-        <Link to='/pedidos'>
+        <Link to='/'>
           Manutenção
         </Link>
       </nav> 

@@ -1,0 +1,82 @@
+.content {
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto 5px;
+  justify-content: center;
+  align-items: center;
+  
+  .form {  
+    .name{
+      display: block;
+      justify-content: center;
+      padding-bottom: 10px;  
+      input {
+        width: 100%;
+      }
+    }
+
+    .rowTwo{
+      .phone{
+        display: inline-block;
+        input {
+          width: 100%;
+        }
+      }
+  
+      .category{
+        padding: 2px 5px;
+        display: inline-block;
+        input {
+          width: 100%;
+        }
+      }
+  
+      .payment{
+        display: inline-block;
+        input {
+          width: 100%;
+        }
+      }
+    }
+      .salvar {
+        background: var(--green);
+        color: var(--grey-400);
+      }
+      .cancelar {
+        background: var(--red);
+        color: var(--grey-400);
+        margin: 10px;
+      }
+
+    }
+    h2 {
+      margin: 5px 0;
+      padding: 5px 0;
+      grid-column: 1 / -1; 
+      grid-row: 4;      
+    }
+    .list {
+      display: block;
+      grid-column: 1 / -1; 
+      grid-row: 5; 
+      height: 37vh;
+      overflow-y: scroll;
+      background: var(--fire-100);
+    }
+
+  label {
+    display: block;
+    padding:5px ;
+  }
+  input {
+    padding:10px 5px;
+    background: var(--fire-100);
+    border: none;
+  }
+  button{
+    margin: 2px 0;
+    border: none;
+    padding: 3px;
+  }
+}
+

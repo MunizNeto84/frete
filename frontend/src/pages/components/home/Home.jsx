@@ -7,10 +7,10 @@ import Spending from '../donutChart/Spending'
 import Styles from '../../../styles/Home.module.scss'
 
 // eslint-disable-next-line
-export default props => 
+export default () => 
 <React.Fragment>
   <Main >
-  <body className={Styles.content}>
+  <div className={Styles.content}>
     <div className={Styles.latestSpending}>
       <p>Últimos Gastos</p>
       <div>
@@ -33,6 +33,6 @@ export default props =>
         <LastFreight/>
       </div>
     </div>
-  </body>  
+  </div>  
   </Main>
 </React.Fragment>

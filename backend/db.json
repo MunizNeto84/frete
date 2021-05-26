@@ -1,12 +1,40 @@
 {
-  "users": [{
-    "id": 1,
-    "name": "Arthur",
-    "email": "artur@gmail.com"
-    }, {
-    "id": 2,
-    "name": "Maria",
-    "email": "maria@gmail.com"
+  "users": [
+    {
+      "id": 1,
+      "name": "Arthur",
+      "email": "artur@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Maria",
+      "email": "maria@gmail.com"
+    },
+    {
+      "name": "Neto",
+      "email": "munizneto@outlook.com",
+      "id": 3
+    },
+    {
+      "name": "Thais",
+      "email": "Rocha",
+      "id": 5
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Frank Mafra",
+      "phone": "1199999999",
+      "category": "Motorista",
+      "payment": 300.5
+    },
+    {
+      "name": "tarcisio sousa Muniz neto",
+      "phone": "1111111111",
+      "category": "ajudante",
+      "payment": "200,00",
+      "id": 2
     }
   ]
 }
