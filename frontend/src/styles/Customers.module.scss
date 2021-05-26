@@ -23,44 +23,72 @@
         }
       }
   
-      .category{
+      .address{
         padding: 2px 5px;
         display: inline-block;
         input {
-          width: 100%;
+          width: 25rem;
         }
       }
   
-      .payment{
+      .district{
         display: inline-block;
         input {
           width: 100%;
         }
       }
     }
-    .save {
-      padding: 5px;
-      background: var(--green);
-      color: var(--grey-400);
-    }
-    .cancel {
-      padding: 5px;
-      background: var(--red);
-      color: var(--grey-400);
-      margin: 15px;
-    }
+      .save {
+        padding: 5px;
+        background: var(--green);
+        color: var(--grey-400);
+      }
+      .cancel {
+        padding: 5px;
+        background: var(--red);
+        color: var(--grey-400);
+        margin: 15px;
+      }
 
     }
     h2 {
       margin: 5px 0;
       padding: 5px 0;
       grid-column: 1 / -1; 
-      grid-row: 4;      
+      grid-row: 4;
+      width: 500px;   
+    }
+    .search {
+      display: inline-block;
+      margin-left: auto;
+      grid-column: 1 / -1; 
+      grid-row: 4; 
+    .iconSearch{
+      margin: 0;
+      padding:0; 
+      display: flex;
+      button{
+        background: var(--fire-200) ;
+        margin: 0;
+        margin-left: 5px;
+        padding:0; 
+        display: inline-block;
+        img{
+          align-items: center;
+          width: 30px;
+        }
+      }
+      button:active{
+        background: var(--fire-500) ;
+      }
+
+    } 
+   
     }
     .list {
       display: block;
       grid-column: 1 / -1; 
-      grid-row: 5; 
+      grid-row: 6; 
       height: 37vh;
       overflow-y: scroll;
       background: var(--fire-100);

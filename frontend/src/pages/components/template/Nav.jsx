@@ -12,7 +12,7 @@ export default props =>
         <Link to='/funcionarios'>
           Funcionários
         </Link>
-        <Link to='/'>
+        <Link to='/clientes'>
           Clientes
         </Link>
         <Link to='/'>

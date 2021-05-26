@@ -7,7 +7,7 @@ import styles from '../../../styles/Table.module.scss'
 const baseUrl = 'http://localhost:3001/employees'
 
 const initialState = {
-  employee: { name: '', phone: '', category: '', payment: '' },
+  employee: { name: '', phone: '', category: '', payment: '', frete: 0 },
   list: []
 }
 
@@ -64,8 +64,8 @@ export default class Employees extends Component {
       <div>
         <div className={Styles.name}>
           <label>Nome</label>
-          <input type="text" 
-            name="name" 
+          <input type="name" 
+            name="text" 
             value={this.state.employee.name}
             onChange = {e => this.updateField(e)}
             placeholder="digite o nome aqui:"
@@ -74,7 +74,7 @@ export default class Employees extends Component {
         <div className={Styles.rowTwo}>
         <div className={Styles.phone}>
           <label>Telefone</label>
-          <input type="text" 
+          <input type="number" 
             name="phone" 
             value={this.state.employee.phone}
             onChange = {e => this.updateField(e)}
@@ -92,7 +92,7 @@ export default class Employees extends Component {
         </div>
         <div className={Styles.payment}>
           <label>Valor por frete</label>
-          <input type="text" 
+          <input type="number" 
             name="payment" 
             value={this.state.employee.payment}
             onChange = {e => this.updateField(e)}
@@ -102,8 +102,8 @@ export default class Employees extends Component {
         </div>
         <div>
           <div >
-            <button className={Styles.salvar} onClick={e => this.save(e)}>Salvar</button>
-            <button className={Styles.cancelar} onClick={e => this.clear(e)}>Cancelar</button>
+            <button className={Styles.save} onClick={e => this.save(e)}>Salvar</button>
+            <button className={Styles.cancel} onClick={e => this.clear(e)}>Cancelar</button>
           </div>
         </div>
       </div>

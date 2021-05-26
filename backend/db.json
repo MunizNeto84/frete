@@ -27,14 +27,25 @@
       "name": "Frank Mafra",
       "phone": "1199999999",
       "category": "Motorista",
-      "payment": 300.5
+      "payment": 300.5,
+      "fretes": 0
     },
     {
       "name": "tarcisio sousa Muniz neto",
       "phone": "1111111111",
       "category": "ajudante",
       "payment": "200,00",
-      "id": 2
+      "id": 2,
+      "fretes": 0
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Paola",
+      "phone": "1199999999",
+      "address": "Rua bom sucesso, 45",
+      "district": "Morumbi"
     }
   ]
 }
